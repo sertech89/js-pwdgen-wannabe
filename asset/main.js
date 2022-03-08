@@ -23,7 +23,7 @@ document.getElementById("contenitore_target3").innerHTML = coloreUtente;
 
 
 console.log(`${nomeUtente} ${cognomeUtente} ${coloreUtente}`);
-// document.getElementById("contenitore_target").innerHTML = nomeUtente;
+document.getElementById("contenitore_target").innerHTML = nomeUtente;
 // document.getElementById("contenitore_target2").innerHTML = cognomeUtente;
 // document.getElementById("contenitore_target3").innerHTML = coloreUtente;
 
