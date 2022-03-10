@@ -22,12 +22,26 @@ console.log("coloreUtente");
 // document.getElementById("contenitore_target3").innerHTML = coloreUtente;
 
 
-console.log(`${nomeUtente}${cognomeUtente}${coloreUtente}`);
-document.getElementById("contenitore_target4").innerHTML = `${nomeUtente}${cognomeUtente}${coloreUtente}21`;
+
+// document.getElementById("contenitore_target4").innerHTML = `${nomeUtente}${cognomeUtente}${coloreUtente}21`;
+// console.log(`${nomeUtente}${cognomeUtente}${coloreUtente}`);
 
 
 
 
+
+
+
+
+
+
+
+// METODO SENZA DUPLICAZIONE DI CODICE
+
+
+let passwordUtente = `${nomeUtente}${cognomeUtente}${coloreUtente}21`;
+console.log(passwordUtente);
+document.getElementById("contenitore_target4").innerHTML = `${passwordUtente}`;
 
 
 
